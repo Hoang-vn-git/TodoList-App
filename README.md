@@ -1,12 +1,58 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management application built with React. It allows users to add, edit, mark as completed, and delete tasks.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add new tasks
+- 📝 Edit existing tasks
+- ❌ Delete tasks
+- ✔️ Mark tasks as completed
+- 🔁 Toggle between editing and viewing mode
+- 🆔 Generate unique task IDs using the `uuid` library
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) with hooks like `useState`
+- [uuid](https://www.npmjs.com/package/uuid) – to generate unique identifiers
+
+## 📂 Folder Structure
+
+```
+src/
+├── components/
+│   ├── ToDoWrapper.jsx    # Main wrapper component
+│   ├── ToDoForm.jsx       # Form to add new tasks
+│   ├── EditToDoForm.jsx   # Form to edit tasks
+│   └── ToDo.jsx           # Task display item
+├── App.js                 # Root component
+└── index.js               # Renders the application
+```
+
+## 💻 Installation & Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Hoang-vn-git/TodoList-App.git
+cd TodoList-App
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the application
+```bash
+npm start
+```
+
+The app will run at: `http://localhost:3000`
+
+## 📸 Screenshots
+
+<img width="783" alt="Screenshot 2025-04-11 at 23 23 19" src="https://github.com/user-attachments/assets/c37dcc94-c276-4b58-aecb-b3e2bd5dd4e9" />
+
+---
+
+✨ Stay productive with the Todo List App!
